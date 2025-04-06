@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NURLELAWEB</title>
+</head>
+<body>
+    <h1>Form Mahasiswa</h1>
+    <form>
+        <fieldset>
+            <legend>Data Mahasiswa</legend>
+            <label for="nama">Nama :</label>
+            <input type="text" id="nama" name="nama">
+            <br>
+            <label for="NPM">NPM :</label>
+            <input type="text" id="NPM" name="NPM">
+            <br>
+            <Label for="Kelas">Kelas : </Label>
+            <select name="Kelas" id="Kelas">Kelas :
+                <option value="Kelas">IFA</option>
+                <option value="Kelas">IFB</option>
+                <option value="Kelas">IFC</option>
+                </select>
+            <br>
+            <input type="radio" name="jeniskelamin" id="Pria">
+            <label for="pria">Pria</label>
+            <input type="radio" name="jeniskelamin" id="wanita">
+            <label for="wanita">wanita</label>
+        <br>
+        </fieldset>
+        <form>
+            <fieldset>
+                <legend>Tempat Tinggal Mahasiswa </legend>
+                <label for="Alamat">Alamat :</label>
+                <textarea></textarea>
+                <br>
+                <label for="Kecamatan">Kecamatan :</label>
+                <input type="text" id="Kecamatan" name="Kecamatan">
+                <br>
+                <label for="Kabupaten">Kabupaten :</label>
+                <input type="text" id="Kabupaten" name="Kabupaten">
+                <br>
+                <label for="Provinsi">Provinsi :</label>
+                <input type="text" id="Provinsi" name="Provinsi">
+                <br>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Lain-Lainya</legend>
+                <!-- Bahasa Pemrograman -->
+<table>
+    <tr>
+      <td><b>Bahasa Pemrograman:</b></td>
+      <td>
+        <input type="checkbox" id="c" name="language"><label for="c">C / C++</label>
+        <input type="checkbox" id="golang" name="language"><label for="golang">Go Lang</label>
+        <input type="checkbox" id="python" name="language"><label for="python">Python</label>
+        <input type="checkbox" id="php" name="language"><label for="php">PHP</label>
+        <input type="checkbox" id="js" name="language"><label for="js">Javascript</label>
+        <input type="checkbox" id="ruby" name="language"><label for="ruby">Ruby</label>
+        <input type="checkbox" id="lainnya" name="language"><label for="lainnya">Lainnya</label>
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Kegiatan -->
+  <table>
+    <tr>
+      <td><b>Kegiatan:</b></td>
+      <td>
+        <input type="checkbox" id="organisasi" name="activity"><label for="organisasi">Organisasi Kemahasiswaan</label>
+        <input type="checkbox" id="olahraga" name="activity"><label for="olahraga">Bidang Olahraga</label>
+        <input type="checkbox" id="luar-kampus" name="activity"><label for="luar-kampus">Organisasi di Luar Kampus</label>
+        <input type="checkbox" id="seni" name="activity"><label for="seni">Bidang Seni</label>
+        <input type="checkbox" id="lainnya-kegiatan" name="activity"><label for="lainnya-kegiatan">Lainnya</label>
+      </td>
+    </tr>
+  </table>
+            </fieldset>
+        </form>
+    </form>
+    <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+
+
+</body>
+</html>
