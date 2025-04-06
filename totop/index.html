@@ -72,6 +72,18 @@
             width: 40px;
             height: 40px;
         }
+        .buttonTotop:hover {
+    opacity: 1;
+    box-shadow: 0 0 15px #ff99cc, 0 0 30px #ffc0cb;
+    transition: all 0.3s ease-in-out;
+}
+.buttonTotop svg {
+    transition: transform 0.3s ease-in-out;
+}
+.buttonTotop:hover svg {
+    transform: translateY(-2px);
+}
+
     </style>
 </head>
 <body>
@@ -116,8 +128,11 @@
     </main>
 
     <div class="buttonTotop" id="toTopBtn">
-        <img src="https://cdn-icons-png.flaticon.com/512/4727/4727414.png" alt="To Top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#fff" viewBox="0 0 24 24">
+            <path d="M12 2l-7 8h4v8h6v-8h4z"/>
+        </svg>
     </div>
+    
 
     <script>
         const toTopBtn = document.getElementById("toTopBtn");
